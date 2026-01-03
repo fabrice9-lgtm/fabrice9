@@ -184,3 +184,17 @@ hr {
     background: linear-gradient(to right, transparent, #38bdf8, transparent);
     margin: 40px 0;
 }
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .galerie img {
+        width: 100%;
+        height: auto;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
